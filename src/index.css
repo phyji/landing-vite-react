@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./assets/fonts/Satoshi-Regular.woff2') format('woff2'),
+         url('./assets/fonts/Satoshi-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('./assets/fonts/Satoshi-Bold.woff2') format('woff2'),
+         url('./assets/fonts/Satoshi-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
